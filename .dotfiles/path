@@ -1,0 +1,6 @@
+PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+PATH="/usr/local/share/npm/bin:$PATH"
+PATH="/usr/local/sbin:$PATH"
+PATH="$HOME/.yarn-config/global/node_modules/.bin:$PATH"
+
+export PATH

@@ -1,0 +1,4 @@
+# Virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/code
+export COPYFILE_DISABLE=true

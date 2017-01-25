@@ -1,0 +1,24 @@
+[user]
+	name = Ricky Dunlop
+	email = hello@rickydunlop.co.uk
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[core]
+	editor = atom-beta .
+	excludesfile = ~/.gitignore
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[pull]
+	rebase = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[rebase]
+	autoStash = true
+[alias]
+	pr = "!f() { git fetch origin pull/$1/head:pr-$1 && git checkout pr-$1; }; f"

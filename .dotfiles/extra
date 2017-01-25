@@ -1,0 +1,4 @@
+source /usr/local/share/zsh/site-functions/_aws
+source /usr/local/bin/virtualenvwrapper.sh
+source $HOME/google-cloud-sdk/path.zsh.inc
+source $HOME/google-cloud-sdk/completion.zsh.inc
