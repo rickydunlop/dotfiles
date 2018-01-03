@@ -10,8 +10,8 @@ plugins=(git git-flow sublime)
 source $ZSH/oh-my-zsh.sh
 
 # Load the shell dotfiles:
-# * ~/.path can be used to extend `$PATH`.
-for file in ~/.dotfiles/.{path,exports,aliases,extra}; do
+# * ~/dotfiles/path can be used to extend `$PATH`.
+for file in ~/.dotfiles/{path,exports,aliases,extra}; do
   [ -r "$file" ] && source "$file"
 done
 unset file
